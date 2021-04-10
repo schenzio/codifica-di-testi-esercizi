@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noNested>
+    <nested>
+    Testo annidato correttamente
+    </nested>
+    <!--esempio di over lap = annidatura scorretta dei tag-->
+    <error>
+        <nogood>
+    </error>
+        </nogood>
+</noNested>
