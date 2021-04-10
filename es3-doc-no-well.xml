@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<docu>
+    <element>
+        <child></child><!--figlio aggiunto a element-->
+    </element>
+    <sibling></sibling><!--fratello aggiunto a element>-->
+    <!--
+        situazione iniziale scorretta:
+        <nowell>
+            <over>
+        </noWell>
+            </over>
+        poiché i nomi dei tag sono case sensitive, il tag di apertura nowell va rinominato come il tag di chiusura noWell (o viceversa);
+        l'annidamento deve essere corretto spostando il tag di chiusura dell'elemento over dentro l'elemento noWell , di modo che 
+        l'elemento figlio over sia aperto e chiuso dentro il padre noWell
+        (oppure il tag di apertura dell'elemento over deve essere spostato fuori dall'elemento noWell, di modo da renderli fratelli)
+        soluzione:
+    -->
+    <noWell>
+        <over>
+        </over>
+    </noWell>
+</docu>
