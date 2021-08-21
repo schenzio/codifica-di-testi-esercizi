@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--internal DDT-->
+<!DOCTYPE TEI 
+[ <!ELEMENT TEI (header, facsimile?, testo+)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT facsmile (#PCDATA)>
+    <!ELEMENT testo (#PCDATA | seg )* >
+    <!ELEMENT seg(#CDATA)>
+    <!ATTLIST header 
+        type CDATA #FIXED "intestazione",
+        lang NMTOKEN #IMPLIED
+        >
+    <!ATTLIST facsimile
+        source CDATA #REQUIRED,
+        ref IDREFS #IMPLIED
+    >
+    <!ATTLIST testo
+        id ID #REQUIRED,
+        type CDATA #IMPLIED
+    >
+]>
+<TEI>
+    <header></header>
+    <testo>
+        1
+    </testo>
+    <testo>
+        2<seg></seg>
+    </testo>
+</TEI>
+<!--<!DOCTYPE TEI SYSTEM "./esempio-ddt.ddt"-->
