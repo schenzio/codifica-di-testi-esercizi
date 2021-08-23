@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    esercizio del corso Codifica di testi 2020/2021
+    Studente: Matteo Scannavini
+    Matricola: 578210
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Non è una cosa seria - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name>Matteo Scannavini</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <availability status="restricted"><p></p></availability>
+                <date>23/8/2021</date>
+            </publicationStmt>
+            <sourceDesc><bibl>
+                <title>Non è una cosa seria</title>
+                <author>Luigi Pirandello</author>
+                <publisher>Corriere della Sera</publisher>
+                <date>7/1/1910</date>
+            </bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="novel">
+                <head>Non è una cosa seria</head>
+
+                <p n="1">Perazzetti? No. Quello poi era un genere particolare.</p>
+
+                <p n="2">Le diceva serio serio, che non pareva nemmeno lui, guardandosi le unghie adunche lunghissime, di cui aveva la cura più meticolosa.</p>
+
+                <p n="3">È vero che poi, tutt’a un tratto, senz’alcuna ragione apparente… un’anatra, ecco, tal’e quale! scoppiava in certe risate, che parevano il verso di un’anatra; e ci guazzava dentro, proprio come un’anatra.</p>
+
+                <p n="4">Moltissimi trovavano appunto in queste risate la prova più lampante della pazzia di Perazzetti. Nel vederlo torcere con le lagrime agli occhi, gli amici gli domandavano:</p>    
+                
+                <q n="1">–    Ma perché? E lui:</q>
+                
+                <q n="2">–    Niente. Non ve lo posso dire.</q>
+                
+                <p n="5">A veder ridere uno così, senza che voglia dirne la ragione, si resta sconcertati, con un certo viso da scemi si resta e una certa irritazione in corpo, che nei così detti «urtati di nervi» può diventar facilmente stizza feroce e voglia di sgraffiare.</p>    
+                
+                <p n="6">Non potendo sgraffiare, i così detti <soCalled>«urtati di nervi»</soCalled> (che sono poi tanti, oggidì) si scrollavano rabbiosamente e dicevano di Perazzetti:</p>    
+                
+                <q n="3">– È pazzo!</q>
+                
+                <p n="7">Se Perazzetti, invece, avesse detto loro la ragione di quel suo anatrare… Ma non la poteva dire, spesso, Perazzetti; veramente non la poteva dire.</p>    
+                
+                <p n="8">Aveva una fantasia mobilissima e quanto mai capricciosa, la quale, alla vista della gente, si sbizzarriva a destargli dentro, senza ch’egli lo volesse, le pili stravaganti immagini e guizzi di comicissimi aspetti inesprimibili; a scoprirgli d’un subito certe strane, riposte analogie, a rappresentargli improvvisamente certi contrasti così grotteschi e buffi, che la risata gli scattava irrefrenabile.</p>    
+                
+                <p n="9">Come comunicare altrui il giuoco istantaneo di queste fuggevoli immagini impensate?</p>    
+                
+                <p n="10">Sapeva bene Perazzetti, per propria esperienza, quanto in ogni uomo il fondo dell’essere sia diverso dalle fittizie interpretazioni che ciascuno se ne dà spontaneamente, o per inconscia finzione, per quel bisogno di crederci o d’esser creduti diversi da quel che siamo, o per imitazione degli altri, o per le necessità e le convenienze sociali.</p>    
+            
+                <p n="11">Su questo fondo dell’essere egli aveva fatto studii particolari. Lo chiamava l’«antro della bestia». E intendeva della bestia originaria acquattata dentro a ciascuno di noi, sotto tutti gli strati di coscienza, che gli si sono a mano a mano sovrapposti con gli anni.</p>    
+                
+                <p n="12">L’uomo, diceva Perazzetti, a toccarlo, a solleticarlo in questo o in quello strato, risponde con inchini, con sorrisi, porge la mano, dice buon giorno e buona sera, dà magari in prestito cento lire; ma guai ad andarlo a stuzzicare laggiù, nell’antro della bestia: scappa fuori il ladro, il farabutto, l’assassino. E vero che, dopo tanti secoli di civiltà, molti nel loro antro ospitano ormai una bestia troppo mortificata: un porco, per esempio, che si dice ogni sera il rosario.</p>    
+            
+                <p n="13">In trattoria, Perazzetti studiava le impazienze raffrenate degli avventori. Fuori, la creanza; dentro, l’asino che voleva subito la biada. E si divertiva un mondo a immaginare tutte le razze di bestie rintanate negli antri degli uomini di sua conoscenza: quello aveva certo dentro un formichiere e quello un porcospino e quell’altro un pollo d’India, e così via.</p>     
+            </div>
+        </body>
+    </text>
+</TEI>
