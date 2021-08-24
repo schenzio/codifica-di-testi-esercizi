@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+    <text>
+        <!--esempi di liste, name, rs, puntatori, term e glosse-->
+        <list type="simple">
+            <head>Il più famoso trio comico italiano:</head>
+            <item><rs type="person">Aldo</rs></item>
+            <item><rs type="person">Giovanni</rs></item>
+            <item><rs type="person">Giacomo</rs></item>
+        </list>
+        <list type="gloss">
+            <head>Boston Celtics 2021/2022:</head>
+            <note place="foot">Projected starting lineup</note>
+            <label>Point guard</label>
+            <item><name>Smart</name></item>
+            <label>Shooting guard</label>
+            <item><name>Richardson</name></item>
+            <label>Small forward</label>
+            <item><name>Tatum</name></item>
+            <label>Power forward</label>
+            <item><name>Brown</name></item>
+            <label>Center</label>
+            <item><name>Williams III</name></item>
+        </list>
+        <p>Consulta la <ref target="https://m.facebook.com/weareceltics">fan page italana</ref></p>
+        <p>Nulla lo rilassava come la <term>petricore</term> d'autunno.</p>
+        <gloss>Particolare sensazione olfattiva che si percepisce al battere della pioggia sulla terra da tempo asciutta</gloss>
+    </text>
+</TEI>
