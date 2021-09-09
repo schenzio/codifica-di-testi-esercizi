@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+#container{
+    width: 80%;
+    margin: auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+}
+nav, footer {
+    background-color: #492d43be;
+    opacity: 0.9;
+    color: white;
+}
+footer ul {
+    padding-left: 5%;
+}
+h1, h2, h3{
+    text-align: center;
+}
+hr{
+    background-color: #492d43be;
+}
+h1, h2{
+    font-family: 'Pacifico', cursive;
+    padding-top: 15vh;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+a:hover {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.9;
+}
+#intro {
+    width: 75%;
+    margin: auto;
+}
+#list {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.img-box{
+    display: flex;
+    width: 60%; 
+}
+.img-box-retro{
+    width: 85%;
+    display: flex;
+}
+img{
+   margin: auto;
+   width: 60%; 
+}
+.content img{
+    width: 80%
+}
+.bordeaux{
+	color: rgba(126, 26, 23, 0.925);
+}
+.purple{
+    color: purple;
+}
+.front {
+    display: flex;
+}
+.frontDesc{
+    margin-top: 10%;
+}
+.img-box{
+    float:left;
+}
+.retro_code{
+    background-color: cornsilk;
+    width: 100%;
+    margin: 4%;
+    padding: 3%;
+}
+.lefthalf{
+    float:left;
+    padding-left: 10%;
+} 
+.righthalf{
+    float: right;
+    padding-right: 10%;
+}
+.extra{
+    font-size: 0.8em;
+    line-height: 0.8;
+}
+.right{
+    text-align: right;
+}

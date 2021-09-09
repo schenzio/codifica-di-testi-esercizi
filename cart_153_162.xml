@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Progetto di esame del corso Codifica di testi 2020/2021
+    Studente: Matteo Scannavini
+    Matricola: 578210
+-->
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartoline artistiche della Spezia</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="MS">Matteo Scannavini</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>  
+            </titleStmt>        
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!--COMPILAZIONE-->
+                    <date>2021</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name ref="#MS">Matteo Scannavini</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore:</resp>
+                    <name xml:id="TM">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt> 
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2021">2021</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO 
+                        <idno>7694_153, 7694_162</idno>-->
+                    </msIdentifier>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giovanni</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Galileo</forename>
+                            <surname>Chini</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[pittore]</occupation>
+                    </person>                    
+                </listPerson>
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>            
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>[Donna con lettera e amorino] - Edizione digitale</title>
+                    <!-- TRASCRITTORE nome e cognome-->
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#MS">Matteo Scannavini</name>
+                    </respStmt>
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>               
+                </titleStmt>
+                <editionStmt>
+                    <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2021</date>
+                    </edition>
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>Codificato da:</resp>
+                        <name ref="#MS">Matteo Scannavini</name>
+                    </respStmt>         
+                    <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#TM">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2021">2021</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+                <notesStmt>
+                    <note n="1">Sotto la firma, vi è una scritta sbiadita illeggibile che non sembra appartenere al testo della cartolina.</note>
+                    <note n="2">Sul retro troviamo stampate "Proprietà artistica riservata N 2053-6", e "Visto revisiona stampa - N 1404 - Milano".</note>
+                </notesStmt>  
+                <sourceDesc>
+                    <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->                       <title type="custom" resp="#ES">[Donna con lettera e amorino]</title>
+                        <title type="custom" resp="#ES">[Donna con lettera e amorino]</title>
+                        <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                        <date>1917</date>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale.</repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_153_001/002</idno>
+                        </msIdentifier>                    
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                    </support>
+                                    <!-- CONSERVAZIONE 
+                                    buono = non occorrono interventi di restauro;
+                                    discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                    mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                    cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#G">Giovanni</persName>
+                        <placeName ref="#MO">Modena</placeName>
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="postage" when="1917-09-02">1917/10/9</date>
+                        <date type="writing" when="1917-09-02">1917/09/02</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT">Oliva Turtura</persName>
+                        <placeName ref="#RV">Ravenna</placeName>
+                    </correspAction>
+                </correspDesc>
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Una donna piange vicino ad un amorino su di una lettera</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="cart153F">
+                <graphic url='7694-153F.jpg' width='1052px' height='1654px' />
+            </surface>
+            <surface xml:id="cart153R">
+                <graphic url='7694-153R.jpg' width='1648px' height='1058px' />
+                <zone ulx="994" uly="70" lrx="1135" lry="154" xml:id="c153idno"/>
+                <zone ulx="1215" uly="63" lrx="1615" lry="416" xml:id="c153timbro"/>
+                <zone ulx="1344" uly="89" lrx="1565" lry="355" xml:id="c153francobollo"/>
+                <zone ulx="817" uly="365" lrx="1433" lry="534" xml:id="c153destinatario_riga1"/>
+                <zone ulx="817" uly="534" lrx="1571" lry="656" xml:id="c153destinatario_riga2"/>
+                <zone ulx="806" uly="669" lrx="1639" lry="815" facs="c153indirizzo1" />
+                <zone ulx="969" uly="793" lrx="1643" lry="1047" facs="c153indirizzo2"/>
+                <zone ulx="728" uly="928" lrx="833" lry="973" xml:id="c153ccm"/>
+                <zone ulx="591" uly="77" lrx="774" lry="936" xml:id="c153luogo_data"/>
+                <zone ulx="453" uly="125" lrx="590" lry="787" xml:id="c153testo"/>
+                <zone ulx="193" uly="8" lrx="439" lry="994" xml:id="c153firma"/>
+                <zone ulx="153" uly="1001" lrx="655" lry="1036" xml:id="c153revisione"/>
+                <zone ulx="24" uly="257" lrx="71" lry="825" xml:id="c153prop_artistica"/>
+                <zone ulx="97" uly="53" lrx="256" lry="945" xml:id="c153testo_sbiadito"/>
+            </surface>
+        </facsimile>
+        <text type="cartolina" xml:id="c153">
+            <body>
+                <div type="fronte" facs="cart153F">
+                    <figure>
+                        <graphic url="7694-153F.jpg"/>
+                        <head>[Donna con lettera e amorino]</head>
+                        <figDesc>Una donna piange coprendosi il viso con le mani. Sul tavolo alla sua destra, un amorino è in piedi sopra una lettera.</figDesc>
+                    </figure>
+                </div>
+                <div type="retro" facs="cart153R">
+                    <div type="lefthalf">
+                        <div type="message">
+                            <opener>
+                                <lb facs="#c153luogo_data"/>
+                                <placeName ref="#MO">Modena</placeName>
+                                <gap reason="illegible" extent="1" unit="chars"/>
+                                <date when="1917/09/02">2/9/17</date>  
+                            </opener>
+                            <p>
+                                <lb facs="c153testo"/>Pensandoti
+                            </p>
+                            <closer>
+                                <signed>
+                                    <lb facs="#c153firma"/><persName ref="#G">Giovannino</persName>
+                                </signed>
+                            </closer>
+                        </div>
+                        <div type="extra">
+                            <p><lb facs="c153ccm"/>CCM</p>
+                            <p><lb facs="#c153revisione" />Visto revisione stampa - N. 1404 - <placeName ref="#MI">Milano</placeName></p>
+                            <p><lb facs="#c153prop_artistica"/>Proprietà artistica riservata - N. 2053-6</p>
+                            <p><lb facs="#c153testo_sbiadito"/><unclear reason="faded">Degli </unclear><gap reason="illegible" extent="1" unit="words"/></p>
+                        </div>
+                    </div>
+                    <div type="righthalf">
+                        <p>
+                            <idno type="nCartolina" facs="#c153idno">153</idno>
+                        </p>
+                        <div type="destination">
+                            <p>
+                                <stamp facs="#c153timbro">
+                                    <mentioned>
+                                        <placeName ref="#MO">MODENA</placeName> FERROVIA
+                                    </mentioned>
+                                    <date when="1917/10/21"><unclear reason="faded">21.10.17.18</unclear></date>
+                                </stamp>
+                                <stamp type ="postage" facs="#c153francobollo">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                            </p>
+                            <p>
+                                <address>
+                                    <lb facs="#c153destinatario_riga1" /><addrLine>
+                                        <choice><abbr type="suspension">Gent</abbr><expan>Gentile</expan></choice> 
+                                        <roleName type="honorific"><choice><abbr>Sig ra</abbr><expan>Signora</expan></choice></roleName>
+                                    </addrLine>
+                                    <lb facs="#c153destinatario_riga2" /><addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+                                    <lb facs="#c153indirizzo1" /><addrLine>Via Girolamo Rossi 58</addrLine>
+                                    <lb facs="#c153indirizzo2" /><addrLine><placeName ref="#RV">Ravenna</placeName></addrLine>
+                                </address>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>Volo d'Icaro - Edizione digitale</title>
+                    <!-- TRASCRITTORE nome e cognome-->
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#MS">Matteo Scannavini</name>
+                    </respStmt>
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>               
+                </titleStmt>
+                <editionStmt>
+                    <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2021</date>
+                    </edition>
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>Codificato da:</resp>
+                        <name ref="#MS">Matteo Scannavini</name>
+                    </respStmt>         
+                    <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#TM">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2021">2021</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+                <notesStmt>
+                    <note n="1">La cartolina è anonima e non è stata inviata. L'unico testo presente è rappresentato dal luogo e la data di stesura.</note>
+                    <note n="2">Sul retro troviamo nome dell'artista (Galileo Chini) e titolo dell' opera, e "Proprietà artistica riservata -Serie XIII - N 76".</note>
+                </notesStmt>  
+                <sourceDesc>
+                    <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->                       
+                        <title type="custom" resp="#ES">[Donna con lettera e amorino]</title><!--aggiustare-->
+                        <title type="custom" resp="#ES">Volo d'Icaro</title>
+                        <author ref="#GC">Galileo Chini</author>
+                        <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                        <date>1917</date>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_162_001/002</idno>
+                        </msIdentifier>                    
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                    </support>
+                                    <!-- CONSERVAZIONE 
+                                    buono = non occorrono interventi di restauro;
+    discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+    mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+    cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="writing" when="1917-09-05">1917/09/05</date>
+                    </correspAction>
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Caduta di Icaro durante il volo</term>
+                    </keywords>
+                </textClass>    
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="cart162F">
+                <graphic url="7694-162F.jpg" width="1036px" height="1622px" />
+            </surface>
+            <surface xml:id="cart162R">
+                <graphic url="7694-162R.jpg" width="1621px" height="1041px" />
+                <zone ulx="1373" uly="5" lrx="1546" lry="80" xml:id="c162idno" />
+                <zone ulx="77" uly="72" lrx="255" lry="249" xml:id="c162stemma" />
+                <zone ulx="1323" uly="82" lrx="1555" lry="342" xml:id="c162spazio_francobollo" />
+                <zone ulx="218" uly="204" lrx="1139" lry="345" xml:id="c162luogo_data"/>
+                <zone ulx="135" uly="921" lrx="787" lry="977" xml:id="c162autore_titolo" />
+                <zone ulx="44" uly="242" lrx="87" lry="913" xml:id="c162prop_artistica" />           
+            </surface>
+        </facsimile>
+        <text>
+            <body>
+                <div type="fronte" facs="cart162F">
+                    <figure>
+                        <graphic url="7694-162F.jpg"/>
+                        <head>Volo d'Icaro di Galileo Chini</head>
+                        <figDesc>Icaro alato è in caduta libera verso il mare, che riflette le tinte di un cielo arancione e violaceo.</figDesc>
+                    </figure>
+                </div>
+                <div type="retro" facs="cart162R">
+                    <div type="lefthalf">
+                        <div>
+                            <figure facs="c162stemma">
+                                <figDesc>Stemma decorativo</figDesc>
+                            </figure>
+                            <opener>
+                                <lb facs="#c162luogo_data"/>
+                                <unclear reason="faded">
+                                    <placeName ref="#RV">Ravenna</placeName>
+                                    <date when="1917/09/5">5 Settembre 1917</date>
+                                </unclear>
+                            </opener>
+                        </div>
+                        <div type="extra">
+                            <p>
+                                <lb facs="c162autore_titolo"/>
+                                <persName ref="#GC">GALILEO CHINI</persName> - Volo d'Icaro <foreign xml:lang="fr">(Vol d'Icare)</foreign>
+                            </p>
+                            <p><lb facs="c162prop_artistica"/>Proprietà artistica riservata - Serie XIII - N. 76</p>
+                        </div>
+                    </div>
+                    <div type="righthalf">
+                        <p>
+                            <idno type="nCartolina" facs="#c162idno">162</idno>
+                        </p>
+                        <figure facs="c162spazio_francobollo">
+                            <figDesc>Rettangolo vuoto, delinea lo spazio destinato al francobollo</figDesc>
+                        </figure>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
