@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Studente: Matteo Scannavini
+    Matricola: 578210
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Articolo di NBA.com</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Matteo Scannavini</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>NBA.com</publisher>
+                <date>2021/9/5</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Mercato NBA, i Brooklyn Nets rifirmano LaMarcus Aldridge dopo il ritiro</title>
+                    <author>NBA.com</author>
+                    <date>2021/9/5</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+         <p>Dopo aver superato tutti i test medici previsti, <persName>LaMarcus Aldridge</persName> è tornato a giocare a pallacanestro firmando con i Brooklyn 
+         Nets. Il veterano aveva giocato la sua ultima partita a marzo proprio con i newyorkesi, fermandosi dopo un battito cardiaco irregolare e annunciando 
+         il ritiro. <quote>"Al tempo era la decisione precauzionale più saggia, ma i test e le valutazioni hanno convinto tutti che posso tornare a giocare"</quote>
+         ha detto a <orgName>ESPN</orgName></p>
+         <p>o scorso marzo <persName>LaMarcus Aldridge</persName>, dopo una partita con i Los Angeles Lakers, aveva annunciato il suo ritiro a causa di un battito 
+         cardiaco irregolare che metteva in pericolo la sua salute. Ora però, a cinque mesi di distanza e dopo una serie di test fisici realizzati sia dalla 
+         <orgName>NBA</orgName> che indipendentemente, ha ricevuto il via libera per poter tornare a essere un giocatore di pallacanestro professionista, firmando 
+         di nuovo con i Brooklyn Nets. <quote>“Mi sono ritirato perché credevo fosse la decisione precauzionale più saggia per la mia salute, ma dopo esami e valutazioni
+          con i migliori medici ha convinto i dottori, i Nets e me stesso che sono pronto a sottopormi di nuovo ai rigori della NBA”</quote> ha detto <persName>Aldridge
+          </persName> a <orgName>ESPN</orgName>. <quote>“Ho amato il mio breve periodo a Brooklyn e non vedo l’ora di ritrovare il resto della squadra andando a caccia 
+          del titolo”</quote>. Il sette volte <foreign xml:lang="en">All-Star</foreign> si unisce a un front court che può contare anche su <persName>Blake Griffin</persName> 
+          e il neo-arrivato <persName>Paul Millsap</persName>, oltre ai giovani <persName>Nic Claxton</persName> e <persName>Day’Ron Sharpe</persName>.
+           La sua esperienza ai <orgName>Nets</orgName> è durata cinque partite dopo aver lasciato i <orgName>San Antonio Spurs</orgName>, con i quali aveva disputato 
+           cinque stagioni e mezzo dopo le 9 iniziali con la maglia dei <orgName>Portland Trail Blazers</orgName>. A 36 anni di età è pronto a giocarsi il titolo 
+           con la favorita assoluta alla conquista del <foreign xml:lang="en">Larry O’Brien Trophy</foreign>.
+         </p>
+        </body>
+    </text>
+</TEI>
