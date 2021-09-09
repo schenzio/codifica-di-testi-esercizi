@@ -6,4 +6,4 @@ I file del PROGETTO D'ESAME sono i seguenti:
 * *stile.css*
 * *output.html*
 * *tei_all.dtd*
-* le immagini: 7694-153F.jpeg, 7694-153R.jpeg, 7694-162F.jpeg e 7694-153R.jpeg
+* le immagini: 7694-153F.jpg, 7694-153R.jpg, 7694-162F.jpg e 7694-153R.jpg
